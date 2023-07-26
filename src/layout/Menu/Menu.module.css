@@ -1,0 +1,68 @@
+.firstLevel {
+    display: grid;
+    grid-template-columns: 24px 1fr;
+    gap: 20px;
+    align-items: center;
+    font-family: Noto Sans;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 25px;
+    margin-top: 20px;
+}
+
+.firstLevelActive,
+.firstLevel:hover {
+    color: var(--primary);
+}
+
+.firstLevelActive svg,
+.firstLevelActive svg:hover {
+    fill: var(--primary);
+}
+
+.secondCategory {
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-transform: uppercase;
+    color: var(--gray-dark);
+
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 16px;
+}
+
+.secondBlock {
+    margin-top: 15px;
+    margin-left: 12px;
+    padding: 32px;
+
+    border-left: 1px solid #DFDFDF;
+}
+
+.secondLevelBlock {
+    display: none;
+}
+
+.secondBlockOpened {
+    display: block;
+}
+
+.secondBlockOpened:last-child {
+    margin-bottom: 20px;
+}
+
+.thirdCategory {
+    display: block;
+    margin-bottom: 10px;
+    cursor: pointer;
+    color: var(--gray-dark);
+
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 19px;
+}
+
+.thirdCategoryActive,
+.thirdCategory:hover {
+    color: var(--primary);
+}
