@@ -14,9 +14,9 @@ export enum TopLevelCategory {
 export interface HhData {
     _id: string;
     count: string;
-    juniorSalary: string;
-    middleSalary: string;
-    seniorSalary: string;
+    juniorSalary: number;
+    middleSalary: number;
+    seniorSalary: number;
     updateAt: Date;
 }
 
